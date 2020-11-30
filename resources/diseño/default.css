@@ -1,0 +1,110 @@
+*{
+  color: #505961;
+  -webkit-transition: all .5s ;
+  -o-transition: all 20s ;
+  transition:all .20s  ;
+}
+
+.clearfix:before, .clearfix:after{
+  display: table;
+  content: "";
+}
+.clearfix:after{
+  clear: both;
+}
+
+.cabecera .container{
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.cabecera .menu {
+  float: right;
+}
+
+.cabecera .menu ul {
+  list-style: none;
+  position: relative;
+  margin: 0px;
+  padding:0px;
+}
+
+.cabecera .menu ul li{
+  float: left;
+}
+
+.cabecera .menu ul li a{
+  padding: 0 10px;
+  display: block;
+  line-height: 70px;
+}
+
+.cabecera .welc {
+  font-size: 2em;
+  float: left;
+  width: 200px;
+  padding: 10px 0;
+  margin: 0.67em 0;
+}
+
+a:hover{
+  color:#91CCED; 
+}
+
+.cabecera .menu ul li.hover, .cabecera .menu ul li.activate a{
+  color: #fff
+  box-shadow: 0 70px 0 #91CCED inset;
+}
+
+
+ input {
+  font-family: "Roboto", sans-serif;
+  outline: 4;
+  background: #4BB4F1;
+  width: 90%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 8px;
+}
+
+
+
+
+
+.regis {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.nuevo {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.tab {
+  width: 1000px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.tab1 {
+  position: all;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 400px;
+  padding: 100px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+

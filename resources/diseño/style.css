@@ -1,0 +1,91 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dataTables_wrapper .dataTables_length .browser-default {
+  display: inline-block;
+  margin: 7px 0px;
+  width: 50px;
+  color: black;
+  height: 28px;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+  padding: 0px !important;
+  padding-top: 0px !important;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+  padding-top: 0px !important;
+  line-height: 45px !important;
+}
+
+.dataTables_wrapper .pagination .mdl-button:hover {  
+  border-radius: 50%;
+  background: rgba(0,0,0,0.05);
+}
+
+.page-footer {
+  padding: 0px 0 !important;
+}
+
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #2196F3;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #0C8CBBF0;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+
+.redrowClass{ background-color: #FBACAC !important; }
+
+#modalInfo{max-height: 60%;}
+
+#modalInfo .collection-header {
+  font-size: 1.14rem;
+  font-weight: 500;
+}
+
+#modalInfo .collections-content {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+#modalInfo .settings-group{
+  box-shadow: 0px 0px !important;
+}
+
+.collection .collection-item.avatar i.circle {
+  font-size: 28px !important;
+}
+
+#modal4 { width: 75% !important ; max-height: 100% !important ; overflow-y: hidden !important ;}
